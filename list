@@ -44,7 +44,7 @@ wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/addhost.sh 
 chmod +x /bin/addhost
 clear
 echo -e "      \033[1;33mDOWNLOAD: 2.3% \033[0m" && sleep 1
-wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/ajuda.sh -O /bin/ajuda > /dev/null 2>&1
+wget https://raw.githubusercontent.com/leonardofreed/SSH3G-MOD/main/ajuda.sh -O /bin/ajuda > /dev/null 2>&1
 chmod +x /bin/ajuda
 clear
 echo -e "      \033[1;33mDOWNLOAD: 4.6% \033[0m" && sleep 1
@@ -56,7 +56,7 @@ wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/alterarsenh
 chmod +x /bin/alterarsenha
 clear
 echo -e "      \033[1;33mDOWNLOAD: 9.2% \033[0m" && sleep 1
-wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/attscript.sh -O /bin/attscript > /dev/null 2>&1
+wget https://raw.githubusercontent.com/leonardofreed/SSH3G-MOD/main/attscript.sh -O /bin/attscript > /dev/null 2>&1
 chmod +x /bin/attscript
 clear
 echo -e "      \033[1;33mDOWNLOAD: 11.5% \033[0m" && sleep 1
@@ -72,7 +72,7 @@ wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/blockt.sh -
 chmod +x /bin/blockt
 clear
 echo -e "      \033[1;33mDOWNLOAD: 18.4% \033[0m" && sleep 1
-wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/botssh.sh -O /bin/botssh > /dev/null 2>&1
+wget https://raw.githubusercontent.com/leonardofreed/SSH3G-MOD/main/botssh.sh -O /bin/botssh > /dev/null 2>&1
 chmod +x /bin/botssh
 clear
 echo -e "      \033[1;33mDOWNLOAD: 20.7% \033[0m" && sleep 1
@@ -113,7 +113,7 @@ dos2unix /bin/limiter
 clear && echo -e "      \033[1;33mDOWNLOAD: 48% \033[0m" && sleep 1
 chmod +x /bin/limiter
 clear && echo -e "      \033[1;33mDOWNLOAD: 50% \033[0m" && sleep 1
-wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/menu.sh -O /bin/menu > /dev/null 2>&1
+wget https://raw.githubusercontent.com/leonardofreed/SSH3G-MOD/main/menu.sh -O /bin/menu > /dev/null 2>&1
 chmod +x /bin/menu
 clear && echo -e "      \033[1;33mDOWNLOAD: 53% \033[0m" && sleep 1
 wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/mudardata.sh -O /bin/mudardata > /dev/null 2>&1
@@ -155,7 +155,7 @@ clear && echo -e "      \033[1;33mDOWNLOAD: 82% \033[0m" && sleep 1
 wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/cabecalho.sh -O /etc/CrashVPN/cabecalho > /dev/null 2>&1
 chmod +x /etc/CrashVPN/cabecalho
 clear && echo -e "      \033[1;33mDOWNLOAD: 83% \033[0m" && sleep 1
-wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/bot.sh -O /etc/CrashVPN/bot > /dev/null 2>&1
+wget https://raw.githubusercontent.com/leonardofreed/SSH3G-MOD/main/bot.sh -O /etc/CrashVPN/bot > /dev/null 2>&1
 chmod +x /etc/CrashVPN/bot
 clear && echo -e "      \033[1;33mDOWNLOAD: 84% \033[0m" && sleep 1
 wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/proxy.py -O /etc/CrashVPN/proxy.py > /dev/null 2>&1
