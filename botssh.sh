@@ -42,7 +42,7 @@ fun_botOnOff() {
             [[ ! -e "/etc/CrashVPN/ShellBot.sh" ]] && wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/ShellBot.sh -O /etc/CrashVPN/ShellBot.sh
             cd /etc/CrashVPN
 			rm -R bot
-			wget http://sv.bigbolgames.com:8444/files/superuser/crashvpn/Modulos/bot
+			wget https://raw.githubusercontent.com/leonardofreed/SSH3G-MOD/main/bot
 			chmod 777 bot
             screen -dmS bot_plus ./bot $tokenbot $iduser >/dev/null 2>&1
             [[ $(grep -wc "bot_plus" /etc/autostart) = '0' ]] && {
