@@ -924,8 +924,8 @@ sobremim() {
     msg+="<b>🤖 BOT SSH3G MANAGER 🤖</b>\n"
     msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n"
     msg+="<b> por:</b> @LeonardoFreed\n"
-    msg+="<b>Canal Oficial:</b> @SSH3G_MOD\n\n"
-    msg+="Fui criado com o propósito de fornecer informações e ferramentas para gestão VPN em servidores 🐧 GNU/Linux 🐧.\n\n"
+    msg+="<b>Aplicativo Oficial:</b> @https://play.google.com/store/apps/details?id=vpn.ssh4gvip.net\n\n"
+    msg+="Fui criado com o propósito de fornecer informações e ferramentas para gestão VPN em servidores GNU/Linux.\n\n"
     msg+="<b>Menu:</b> /menu\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
