@@ -124,7 +124,8 @@ fun_ajuda() {
         env_msg+="• <u>EXPIRADOS</u> = Remove ssh expirados\n\n"
         env_msg+="• <u>REVENDAS</u> = Gerenciar Revendas\n\n"
         env_msg+="• <u>RELATORIO</u> = Informacoes sobre revendas\n\n"
-        env_msg+="• <u>AJUDA</u> = Informacoes sobre opcoes\n\n"
+        env_msg+="• <u>OTIMIZAR</u> = Limpa o cache - ram\n\n"
+	env_msg+="• <u>AJUDA</u> = Informacoes sobre opcoes\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
             --parse_mode html
